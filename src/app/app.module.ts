@@ -29,6 +29,7 @@ import { ShoppingListService } from './shopping-list/shopping-list.service';
   imports: [
     BrowserModule,
     FormsModule,
+// tslint:disable-next-line: deprecation
     HttpModule
   ],
   providers: [ShoppingListService],
